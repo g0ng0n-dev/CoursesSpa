@@ -2,7 +2,7 @@
   "name": "redux-admin-project",
   "description": "React and Redux Admin Project",
   "scripts": {
-    "start" : "webpack-dev-server --config webpack.config.dev.js --port 3000"
+    "start": "webpack-dev-server --config webpack.config.dev.js --port 3000"
   },
   "dependencies": {
     "bootstrap": "4.3.1",

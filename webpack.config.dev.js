@@ -8,7 +8,7 @@ module.exports = {
     mode: 'development',
     target: 'web',
     devtool: 'cheap-module-source-map',
-    entry: './src/index',
+    entry: "./src/index",
     output: {
         path: path.resolve(__dirname, "build"),
         publicPath: '/',
@@ -24,7 +24,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            templates: "src/index.html",
+            template: "src/index.html",
             favicon: "src/favicon.ico"
         })
     ],
